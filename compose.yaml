@@ -1,0 +1,8 @@
+services:
+  app_service:
+    build: 
+      context: .
+      args:
+        TINKER_BUILD_ARG0: set by compose
+        TINKER_BUILD_ARG1: set by compose
+        TINKER_BUILD_ARG2: set by compose

@@ -1,3 +1,6 @@
 {
-    "name": "my-devcontainer-config"
+    "name": "my-devcontainer-config",
+    "dockerComposeFile": "compose.yaml",
+    "service": "app_service",
+    "workspaceFolder": "/app"
 }
