@@ -6,3 +6,6 @@ services:
         TINKER_BUILD_ARG0: set by compose
         TINKER_BUILD_ARG1: set by compose
         TINKER_BUILD_ARG2: set by compose
+    entrypoint: /bin/sh -s
+    stdin_open: true
+    tty: true
